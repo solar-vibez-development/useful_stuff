@@ -1,0 +1,49 @@
+routes: Object[] = [{
+    icon: 'view_quilt',
+    title: 'Dashboard',
+  }, {
+    icon: 'picture_in_picture',
+    title: 'Activities',
+    children: [
+      {
+        icon: 'color_lens',
+        title: 'Workouts',
+      },
+      {
+        icon: 'view_carousel',
+        title: 'Statistics',
+      },
+      {
+        icon: 'view_carousel',
+        title: 'Training plans',
+      }
+    ]
+  }, {
+    icon: 'view_quilt',
+    title: 'Routes',
+    children: [
+      {
+        icon: 'color_lens',
+        title: 'Nearby',
+      },
+      {
+        icon: 'view_carousel',
+        title: 'My Routes',
+      }
+    ]
+  },
+    {
+      icon: 'view_quilt',
+      title: 'Your Body',
+      children: [
+        {
+          icon: 'color_lens',
+          title: 'Weight Log',
+        },
+        {
+          icon: 'view_carousel',
+          title: 'Instruments', // use td-nav-management-list
+        }
+      ]
+    }
+  ];
